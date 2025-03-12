@@ -28,12 +28,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/taras/Documents/inc_table/build",
-		"source" : "/home/taras/Documents/inc_table/new_cpp"
+		"build" : "/Users/taraskabacok/Documents/inc_table/build",
+		"source" : "/Users/taraskabacok/Documents/inc_table/new_cpp"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
