@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class parsing {
     public static boolean isValid(String stra) {
         int balance = 0;
         for (char ch : stra.toCharArray()) {
