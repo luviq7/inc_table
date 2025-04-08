@@ -4,14 +4,12 @@
 #include <string>
 
 int main() {
-    std::string expr = "((p->q)&&(!(!(q)->r)))<->(p->(!(r)))||x";
-    
-    std::vector<std::string> tokens = parsing_lib::tokenize(expr);
+    std::string expr = "(p->q) && (!(q->r)) <-> (p->!(r))";
 
-    std::cout << "Tokens: ";
+    std::cout << "Input Expression: " << expr << std::endl;
 
-    for (const std::string& token : tokens) {
-        std::cout << token << " ";
-    }
-    std::cout << "\n";
+
+    parsing_lib::parseExpression(expr);
+
+    return 0;
 }
